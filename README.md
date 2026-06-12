@@ -82,7 +82,7 @@ aws ssm send-command --document-name AWS-RunShellScript \
 # 観測: mem_used_percent の定常値→ピーク、ALARM 発火時刻、同時刻の CPUUtilization
 ```
 
-### 仮説I: カナリアの死は誰が見るのか
+### 仮説I: 障害を誰が見るのか
 
 ```bash
 # スケジューラ障害（誤操作）を再現
