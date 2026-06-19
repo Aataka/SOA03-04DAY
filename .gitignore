@@ -19,3 +19,7 @@ lambda/*.zip
 # 作業用一時スクリプト・ログ
 _*.sh
 _*.log
+
+# 記事(docs)・学習足場(study)はGitHubに保管しない（ローカル限定）
+docs/
+study/
